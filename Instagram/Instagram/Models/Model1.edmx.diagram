@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f5e7c214766843fd861d9b7da2269483" Name="Diagram1">
+        <EntityTypeShape EntityType="InstagramDBModel.Account" Width="1.5" PointX="0.75" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="InstagramDBModel.ApprovedFriend" Width="1.5" PointX="3" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="InstagramDBModel.Comment" Width="1.5" PointX="5.25" PointY="14.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="InstagramDBModel.DisLike" Width="1.5" PointX="5.25" PointY="17.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="InstagramDBModel.Friend_Request" Width="1.5" PointX="3" PointY="14.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="InstagramDBModel.Like" Width="1.5" PointX="5.25" PointY="11.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="InstagramDBModel.Post" Width="1.5" PointX="3" PointY="20.25" IsExpanded="true" />
+        <AssociationConnector Association="InstagramDBModel.FK__ApprovedF__frien__2E1BDC42" ManuallyRouted="false" />
+        <AssociationConnector Association="InstagramDBModel.FK__ApprovedF__mainu__2D27B809" ManuallyRouted="false" />
+        <AssociationConnector Association="InstagramDBModel.FK__Comment__account__31EC6D26" ManuallyRouted="false" />
+        <AssociationConnector Association="InstagramDBModel.FK__DisLikes__accoun__38996AB5" ManuallyRouted="false" />
+        <AssociationConnector Association="InstagramDBModel.FK__Friend_Re__recie__29572725" ManuallyRouted="false" />
+        <AssociationConnector Association="InstagramDBModel.FK__Friend_Re__sende__2A4B4B5E" ManuallyRouted="false" />
+        <AssociationConnector Association="InstagramDBModel.FK__Likes__accountId__34C8D9D1" ManuallyRouted="false" />
+        <AssociationConnector Association="InstagramDBModel.FK__Post__fk_Acount___267ABA7A" ManuallyRouted="false" />
+        <AssociationConnector Association="InstagramDBModel.FK__Comment__postId__30F848ED" ManuallyRouted="false" />
+        <AssociationConnector Association="InstagramDBModel.FK__DisLikes__postId__398D8EEE" ManuallyRouted="false" />
+        <AssociationConnector Association="InstagramDBModel.FK__Likes__postId__35BCFE0A" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
